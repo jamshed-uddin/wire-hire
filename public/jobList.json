@@ -1,0 +1,192 @@
+{
+  "jobs": [
+    {
+      "id": "63091eae4a1647b",
+      "companyLogo": "https://i.ibb.co/KKWhscR/google-1-1-1.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Google LLC",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$120,000 - $150,000 per year",
+      "jobDescription": "Google LLC is seeking a talented software engineer to join our team. The ideal candidate will have experience in developing web applications using modern front-end frameworks and back-end technologies.",
+      "jobResponsibility": "Responsibilities include designing and implementing new features, maintaining existing code, and collaborating with team members to deliver high-quality software products.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum of 3 years of experience in software development",
+      "contactInformation": {
+        "phone": "555-123-4567",
+        "email": "jobs@google_llc.com"
+      }
+    },
+    {
+      "id": "2401634c1c4d4b2",
+      "companyLogo": "https://i.ibb.co/6yMHPMW/netflix-4-1.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "Netflix Inc.",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000 per year",
+      "jobDescription": "Netflix Inc. is seeking a Marketing Manager to lead our marketing team. The ideal candidate will have experience in developing and executing successful marketing campaigns across a variety of channels.",
+      "jobResponsibility": "Responsibilities include managing the marketing team, developing and executing marketing strategies, and measuring the effectiveness of marketing campaigns.",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "Minimum of 3 years of experience in marketing management",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@netflixinc.com"
+      }
+    },
+    {
+      "id": "e9d9da055d7c4f0",
+      "companyLogo": "https://i.ibb.co/sp48C0V/tesla-9-1.png",
+      "jobTitle": "Software Developer",
+      "companyName": "Tesla Inc.",
+      "remoteOrOnsite": "Remote",
+      "location": "Toronto, Canada",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000 per year",
+      "jobDescription": "Tesla Inc. is seeking a talented software developer to join our team. The ideal candidate will have experience in developing web applications using modern front-end frameworks and back-end technologies.",
+      "jobResponsibility": "Responsibilities include designing and implementing new features, maintaining existing code, and collaborating with team members to deliver high-quality software products.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum of 4 years of experience in software development",
+      "contactInformation": {
+        "phone": "555-123-4567",
+        "email": "jobs@teslainc.com"
+      }
+    },
+    {
+      "id": "0d8b8e06d02a437",
+      "companyLogo": "https://i.ibb.co/YWmv5dH/Group-10021.png",
+      "jobTitle": "Frontend Developer",
+      "companyName": "Airbnb Inc.",
+      "remoteOrOnsite": "Remote",
+      "location": "San Francisco, CA",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$100,000 - $120,000 per year",
+      "jobDescription": "Airbnb Inc. is seeking a frontend developer to help us build beautiful and functional user interfaces for our web applications.",
+      "jobResponsibility": "Responsibilities include developing and implementing user interfaces, collaborating with designers and back-end developers, and contributing to the development of new products.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum of 3 years of experience in frontend development",
+      "contactInformation": {
+        "phone": "555-987-6543",
+        "email": "jobs@airbnbinc.com"
+      }
+    },
+    {
+      "id": "1e3cddc9e9f649d",
+      "companyLogo": "https://i.ibb.co/6FY2bcr/cisco.png",
+      "jobTitle": "Customer Support Specialist",
+      "companyName": "Cisco Inc.",
+      "remoteOrOnsite": "Onsite",
+      "location": "London, UK",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "£25,000 - £30,000 per year",
+      "jobDescription": "Cisco Inc. is seeking a Customer Support Specialist to provide top-notch support to our customers.",
+      "jobResponsibility": "Responsibilities include answering customer inquiries, troubleshooting technical issues, and providing solutions to customer problems.",
+      "educationalRequirements": "High school diploma or equivalent",
+      "experiences": "Minimum of 1 year of experience in customer support",
+      "contactInformation": {
+        "phone": "+44 123 456 7890",
+        "email": "jobs@ciscoinc.com"
+      }
+    },
+    {
+      "id": "80b91f90b68e4c4",
+      "companyLogo": "https://i.ibb.co/zS1YWxJ/broadcom.png",
+      "jobTitle": "Data Analyst",
+      "companyName": "Broadcom Corp.",
+      "remoteOrOnsite": "Remote",
+      "location": "Chicago, IL",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$70,000 - $90,000 per year",
+      "jobDescription": "Broadcom Corp. is seeking a Data Analyst to help us make data-driven decisions and insights.",
+      "jobResponsibility": "Responsibilities include analyzing data, creating visualizations and reports, and presenting findings to stakeholders.",
+      "educationalRequirements": "Bachelor's degree in Mathematics, Statistics, or related field",
+      "experiences": "Minimum of 2 years of experience in data analysis",
+      "contactInformation": [
+        {
+          "phone": "555-789-1234",
+          "email": "jobs@broadcomcorp.com"
+        }
+      ]
+    },
+    {
+      "id": "35b4ba4d1a86483",
+      "companyLogo": "https://i.ibb.co/nrDprs0/uber.png",
+      "jobTitle": "HR Manager",
+      "companyName": "Uber Inc.",
+      "remoteOrOnsite": "Onsite",
+      "location": "Houston, TX",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$90,000 - $110,000 per year",
+      "jobDescription": "Uber Inc. is seeking an experienced HR Manager to lead our human resources department.",
+      "jobResponsibility": "Responsibilities include overseeing recruitment, onboarding, benefits administration, and employee relations.",
+      "educationalRequirements": "Bachelor's degree in Human Resources or related field",
+      "experiences": "Minimum of 7 years of experience in human resources management",
+      "contactInformation": [
+        {
+          "phone": "555-222-3333",
+          "email": "jobs@uberinc.com"
+        }
+      ]
+    },
+    {
+      "id": "463ffda7e9944a6",
+      "companyLogo": "https://i.ibb.co/NFGM58q/mastercard.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "Mastercard Inc.",
+      "remoteOrOnsite": "Onsite",
+      "location": "New York, NY",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$90,000 - $120,000 per year",
+      "jobDescription": "Mastercard Inc. is seeking a Marketing Manager to lead our marketing efforts.",
+      "jobResponsibility": "Responsibilities include developing and implementing marketing strategies, managing marketing campaigns, and analyzing campaign performance.",
+      "educationalRequirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "Minimum of 5 years of experience in marketing management",
+      "contactInformation": {
+        "phone": "555-987-6543",
+        "email": "jobs@mastercardinc.com"
+      }
+    },
+    {
+      "id": "7cc48c10152b49a",
+      "companyLogo": "https://i.ibb.co/nQQQh3K/tencent.png",
+      "jobTitle": "Frontend Developer",
+      "companyName": "Tencent Inc.",
+      "remoteOrOnsite": "Remote",
+      "location": "Shenzen,China",
+      "fullTimeOrPartTime": "Full-time",
+      "salary": "$80,000 - $100,000 per year",
+      "jobDescription": "Tencent Inc. is seeking a Frontend Developer to join our team.",
+      "jobResponsibility": "Responsibilities include developing and maintaining web applications, collaborating with designers and backend developers, and troubleshooting issues.",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "Minimum of 3 years of experience in frontend development",
+      "contactInformation": [
+        {
+          "phone": "555-123-4567",
+          "email": "jobs@tencentinc.com"
+        }
+      ]
+    },
+    {
+      "id": "1cfcb95684a64a8",
+      "companyLogo": "https://i.ibb.co/93RyTy7/salesforce.png",
+      "jobTitle": "Customer Service Representative",
+      "companyName": "Salesforce Co.",
+      "remoteOrOnsite": "Onsite",
+      "location": "Miami, FL",
+      "fullTimeOrPartTime": "Part-time",
+      "salary": "$20 - $25 per hour",
+      "jobDescription": "Salseforce Co. is seeking a Customer Service Representative to assist with customer inquiries and provide support.",
+      "jobResponsibility": "Responsibilities include answering customer phone calls, responding to emails, and resolving customer issues.",
+      "educationalRequirements": "High school diploma or equivalent",
+      "experiences": "Minimum of 1 year of experience in customer service",
+      "contactInformation": [
+        {
+          "phone": "555-555-1212",
+          "email": "jobs@salseforceco.com"
+        }
+      ]
+    }
+  ]
+}

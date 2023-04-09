@@ -1,0 +1,24 @@
+{
+  "jobCategories": [
+    {
+      "logo": "https://i.ibb.co/BNWrZSj/marketing.png",
+      "name": "Marketing",
+      "available": 136
+    },
+    {
+      "logo": "https://i.ibb.co/6nKSWH4/engineering.png",
+      "name": "Engineering jobs",
+      "available": 123
+    },
+    {
+      "logo": "https://i.ibb.co/DM33gj1/finance.png",
+      "name": "Finance",
+      "available": 46
+    },
+    {
+      "logo": "https://i.ibb.co/xGzTYWF/design.png",
+      "name": "Design",
+      "available": 211
+    }
+  ]
+}

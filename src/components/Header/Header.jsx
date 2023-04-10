@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       {/*  nav button  section starts*/}
-      <div className="text-center block lg:flex lg:w-[65%] justify-between items-center px-16 lg:px-0 py-28 lg:py-0 bg-white-smoke z-20 lg:bg-inherit absolute lg:static top-0 right-0">
+      <div className="text-center block lg:flex lg:w-[65%] justify-between items-center px-16 lg:px-0 py-28 lg:py-0 bg-white-smoke z-20 lg:bg-inherit absolute lg:static top-0 -left-96">
         <ul className="block lg:flex space-y-5 lg:space-y-0 lg:space-x-10 font-semibold   nav-links ">
           <li className="link">
             <NavLink>Home</NavLink>

@@ -7,7 +7,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-6 lg:px-16 py-3 lg:py-1 shadow-lg ">
+    <div className="flex justify-between items-center px-6 lg:px-16 py-3 lg:py-1 shadow-lg bg-white-smoke z-50">
       <div>
         <Link to={"/"}>
           {" "}
@@ -19,13 +19,13 @@ const Header = () => {
       <div className="text-center block lg:flex lg:w-[65%] justify-between items-center px-16 lg:px-0 py-28 lg:py-0 bg-white-smoke z-20 lg:bg-inherit absolute lg:static top-0 -left-96">
         <ul className="block lg:flex space-y-5 lg:space-y-0 lg:space-x-10 font-semibold   nav-links ">
           <li className="link">
-            <NavLink>Home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
           </li>
           <li className="link">
             <NavLink>Statistics</NavLink>
           </li>
           <li className="link">
-            <NavLink>Applied Jobs</NavLink>
+            <NavLink to={"/applied-job"}>Applied Jobs</NavLink>
           </li>
           <li className="link">
             <NavLink>Blogs</NavLink>

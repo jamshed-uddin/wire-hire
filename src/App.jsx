@@ -5,8 +5,12 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Outlet />
+      <div className="fixed top-0 right-0 left-0 ">
+        <Header></Header>
+      </div>
+      <div className="mt-[50px]">
+        <Outlet />
+      </div>
     </div>
   );
 }

@@ -23,8 +23,8 @@ const SingleJob = (props) => {
   };
 
   return (
-    <div className="my-border p-6 bg-white lg:mb-0 mb-3 max-w-3xl mx-auto lg:mx-0 relative">
-      <img src={companyLogo} alt="" />
+    <div className="my-border p-6 bg-white lg:mb-0 mb-3 max-w-3xl mx-auto lg:mx-0 flex flex-col ">
+      <img className="w-fit" src={companyLogo} alt="" />
       <div className="space-y-1 my-4 pb-10">
         <h1 className="text-3xl font-semibold">{jobTitle}</h1>
         <p className="text-xl font-light">{companyName}</p>
@@ -42,8 +42,8 @@ const SingleJob = (props) => {
           </span>
         </p>
       </div>
-      <Link to={`/job-detail/${id}`} className="absolute left-6 bottom-0">
-        <button onClick={() => viewDetailHandler(id)} className="my-btn mt-4">
+      <Link to={`/job-detail/${id}`} className="mt-auto">
+        <button onClick={() => viewDetailHandler(id)} className="my-btn ">
           View Details
         </button>
       </Link>

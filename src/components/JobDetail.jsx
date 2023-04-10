@@ -17,7 +17,6 @@ const JobDetail = () => {
   const allJobs = loadedData.jobs;
 
   const singleJob = allJobs.find((job) => job.id === singleJobId);
-  console.log(singleJob);
 
   const {
     id,
@@ -34,11 +33,33 @@ const JobDetail = () => {
     contactInformation,
   } = singleJob;
 
-  console.log(jobTitle);
+  const appliedJobHandler = (id) => {
+    addToDb(id);
+  };
+
+  const addToDb = (id) => {
+    const storedJob = JSON.parse(localStorage.getItem("jobId"));
+
+    const savedJob = [];
+    const jobId = { id };
+
+    if (storedJob) {
+      const availableId = storedJob.find((jobId) => jobId.id === id);
+      if (availableId) {
+        console.log("ache");
+      } else {
+        savedJob.push(...storedJob, jobId);
+        localStorage.setItem("jobId", JSON.stringify(savedJob));
+      }
+    } else {
+      savedJob.push(jobId);
+      localStorage.setItem("jobId", JSON.stringify(savedJob));
+    }
+  };
 
   return (
-    <div className="px-6 lg:px-16  lg:py-10">
-      <div className="h-28 lg:h-36 flex justify-center items-center">
+    <div className="px-6 lg:px-16  lg:py-8 ">
+      <div className="h-24 lg:h-36 flex justify-center items-center">
         <h1 className="text-3xl lg:text-4xl font-bold border-b-4 border-r border-regal-blue px-4 py-3 text-center">
           Job Detail
         </h1>
@@ -109,7 +130,12 @@ const JobDetail = () => {
             {location}
           </p>
           <div className="mt-4">
-            <button className="my-btn w-full">Apply Now</button>
+            <button
+              onClick={() => appliedJobHandler(id)}
+              className="my-btn w-full"
+            >
+              Apply Now
+            </button>
           </div>
         </div>
       </div>

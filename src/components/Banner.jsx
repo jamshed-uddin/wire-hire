@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="min-h-[calc(100vh-85px)] flex flex-col lg:flex-row items-center px-6 lg:px-16">
+    <div className="lg:h-screen py-12 lg:py-0  flex flex-col lg:flex-row items-center px-6 lg:px-16">
       <div>
         <h1 className="text-5xl lg:text-7xl font-bold">
           <span>One Step</span> <br />
@@ -17,7 +17,7 @@ const Banner = () => {
         <button className="my-btn">Get Started</button>
       </div>
       <div className="order-first lg:order-last ">
-        <img src="" alt="" />
+        <img src="person.png" alt="" />
       </div>
     </div>
   );

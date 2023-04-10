@@ -16,8 +16,8 @@ const Banner = () => {
         </p>
         <button className="my-btn">Get Started</button>
       </div>
-      <div className="order-first lg:order-last lg:w-1/2">
-        <img className="w-full" src="officeWork.gif" alt="" />
+      <div className="order-first lg:order-last ">
+        <img src="" alt="" />
       </div>
     </div>
   );

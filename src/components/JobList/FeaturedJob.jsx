@@ -9,7 +9,7 @@ const FeaturedJob = () => {
       .then((res) => res.json())
       .then((data) => setFeaturedJobs(data.jobs));
   }, []);
-  console.log(featuredJobs);
+
   return (
     <div className=" px-6 lg:px-16 py-8">
       <div className="text-center my-6">

@@ -10,7 +10,7 @@ import AppliedJob from "./components/AppliedJob";
 import JobDetail from "./components/JobDetail";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";
-import { jobDetail } from "./Loader/loader";
+import { appliedJobData } from "./Loader/loader";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +26,7 @@ const router = createBrowserRouter([
       {
         path: "/applied-job",
         element: <AppliedJob></AppliedJob>,
+        loader: appliedJobData,
       },
       {
         path: "/job-detail/:jobId",

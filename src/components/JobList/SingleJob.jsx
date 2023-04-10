@@ -5,7 +5,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import { jobDetail } from "../../Loader/loader";
 
 const SingleJob = (props) => {
   const {
@@ -17,10 +16,6 @@ const SingleJob = (props) => {
     location,
     salary,
   } = props.job;
-
-  const viewDetailHandler = (id) => {
-    // console.log(id);
-  };
 
   return (
     <div className="my-border p-6 bg-white lg:mb-0 mb-3 max-w-3xl mx-auto lg:mx-0 flex flex-col ">
@@ -43,9 +38,7 @@ const SingleJob = (props) => {
         </p>
       </div>
       <Link to={`/job-detail/${id}`} className="mt-auto">
-        <button onClick={() => viewDetailHandler(id)} className="my-btn ">
-          View Details
-        </button>
+        <button className="my-btn ">View Details</button>
       </Link>
     </div>
   );

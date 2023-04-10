@@ -9,7 +9,6 @@ const JobCategory = () => {
       .then((data) => setJobCategories(data.jobCategories));
   }, []);
 
-  console.log(jobCategories);
   return (
     <div className="px-6 lg:px-16 text-center lg:mb-6">
       <h1 className="text-4xl font-bold py-2">Job Category List</h1>

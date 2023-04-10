@@ -1,10 +1,18 @@
-const jobDetail = async (id) => {
-  const jobDataFile = await fetch("jobList.json");
-  const data = await jobDataFile.json();
-  const jobData = data.jobs;
+const appliedJobData = async () => {
+  const response = await fetch("/jobList.json");
+  const data = await response.json();
+  const allJobs = data.jobs;
 
-  const singleJobDetail = jobData.find((job) => job.id === id);
-  return singleJobDetail;
+  const storedJob = JSON.parse(localStorage.getItem("jobId"));
+  const matchedJob = [];
+  for (const job of storedJob) {
+    const appliedJob = allJobs.find((singleJob) => singleJob?.id === job.id);
+    if (appliedJob) {
+      matchedJob.push(appliedJob);
+    }
+  }
+
+  return { allJobs, matchedJob };
 };
 
-export { jobDetail };
+export { appliedJobData };

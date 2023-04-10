@@ -1,0 +1,10 @@
+.link {
+  transition: 500ms;
+}
+
+.nav-links:hover > .link {
+  opacity: 0.3;
+}
+.nav-links:hover > .link:hover {
+  opacity: 1;
+}

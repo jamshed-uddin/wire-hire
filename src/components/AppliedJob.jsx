@@ -10,6 +10,7 @@ const AppliedJob = () => {
   const [isAll, setIsAll] = useState(true);
   const [isRemote, setIsRemote] = useState(false);
   const [isOnsite, setIsOnsite] = useState(false);
+  const [isClearList, setIsClearList] = useState(false);
 
   console.log(matchedJob);
   const remote = matchedJob.filter((job) => job.remoteOrOnsite === "Remote");
@@ -29,7 +30,7 @@ const AppliedJob = () => {
   };
 
   return (
-    <div className="mt-[65px] py-8 lg:mt-20 px-6 lg:px-16">
+    <div className="mt-[65px] py-8 lg:mt-20  px-6 lg:px-16 h-screen">
       <div className=" pb-8">
         <h1 className="text-3xl lg:text-4xl font-bold border-b-4 border-r border-regal-blue px-4 py-3 text-center w-fit mx-auto">
           Applied Jobs
@@ -56,7 +57,7 @@ const AppliedJob = () => {
           Onsite
         </p>
       </div>
-      <div>
+      <div className={`${isClearList ? "hidden" : "block"}`}>
         {isAll &&
           matchedJob.map((singleAppliedJob) => (
             <SingleAppliedJob
@@ -78,6 +79,23 @@ const AppliedJob = () => {
               singleAppliedJob={onsiteJob}
             ></SingleAppliedJob>
           ))}
+      </div>
+      <div className="flex justify-end items-center  mb-3 lg:mr-36 pt-3 pb-16">
+        {isClearList ? (
+          <p
+            onClick={() => setIsClearList(false)}
+            className="my-border text-green-700 font-semibold px-3 py-2 cursor-pointer w-fit"
+          >
+            Undo
+          </p>
+        ) : (
+          <p
+            onClick={() => setIsClearList(true)}
+            className="my-border text-red-700 font-semibold px-3 py-2 cursor-pointer w-fit"
+          >
+            Clear List
+          </p>
+        )}
       </div>
     </div>
   );

@@ -9,6 +9,13 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
+
+const notify = () =>
+  toast("You have applied to this job successfully!", {
+    style: {},
+    className: "my-border",
+  });
 
 const JobDetail = () => {
   const dynamicId = useParams();
@@ -46,7 +53,7 @@ const JobDetail = () => {
     if (storedJob) {
       const availableId = storedJob.find((jobId) => jobId.id === id);
       if (availableId) {
-        console.log("ache");
+        notify();
       } else {
         savedJob.push(...storedJob, jobId);
         localStorage.setItem("jobId", JSON.stringify(savedJob));
@@ -137,6 +144,7 @@ const JobDetail = () => {
               Apply Now
             </button>
           </div>
+          <Toaster />
         </div>
       </div>
     </div>

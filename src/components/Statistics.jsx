@@ -54,8 +54,9 @@ const Statistics = () => {
   ];
 
   return (
-    <div className="mt-[65px] py-8 lg:mt-[75px] px-6 lg:px-16 lg:flex">
+    <div className="mt-[65px] py-8 lg:mt-[75px] px-6 lg:px-16 lg:flex ">
       <RadarChart
+        className="-z-50"
         cx={280}
         cy={250}
         outerRadius={150}

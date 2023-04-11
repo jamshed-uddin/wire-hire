@@ -10,7 +10,6 @@ import AppliedJob from "./components/AppliedJob";
 import JobDetail from "./components/JobDetail";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";
-import { appliedJobData } from "./Loader/loader";
 
 import Blogs from "./components/Blogs";
 import Statistics from "./components/Statistics";

@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center px-6 lg:px-16 py-3 lg:py-0 shadow-lg bg-light-beige z-50">
+    <div className="flex justify-between items-center px-6 lg:px-16 py-3 lg:py-0 shadow-lg bg-light-beige z-40">
       <div>
         <Link to={"/"}>
           {" "}
@@ -67,7 +67,7 @@ const Header = () => {
       </div>
       {/*  nav button  section ends*/}
 
-      <div className="lg:hidden z-30 text-3xl cursor-pointer">
+      <div className="lg:hidden z-50 text-3xl cursor-pointer">
         {isOpen ? (
           <FontAwesomeIcon onClick={() => setOpen(false)} icon={faXmark} />
         ) : (

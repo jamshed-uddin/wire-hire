@@ -1,5 +1,5 @@
 const appliedJobData = async () => {
-  const response = await fetch("/jobList.json");
+  const response = await fetch("jobList.json");
   const data = await response.json();
   const allJobs = data.jobs;
 

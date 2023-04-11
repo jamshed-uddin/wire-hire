@@ -19,7 +19,7 @@ const Header = () => {
 
       {/*  nav button  section starts*/}
       <div
-        className={`text-center block lg:flex lg:w-[65%] justify-between items-center px-16 lg:px-0 py-28 lg:py-0  z-20 lg:bg-inherit  lg:static transition-all duration-700  ${
+        className={`text-center block lg:flex lg:w-[65%] justify-between items-center px-16 lg:px-0 py-28 lg:py-0  z-40 lg:bg-inherit  lg:static transition-all duration-700  ${
           isOpen ? "absolute top-0 right-0" : "absolute top-0 -right-96"
         } bg-white`}
       >
@@ -46,7 +46,7 @@ const Header = () => {
             onClick={() => setOpen(false)}
             className={`link px-2 py-1 lg:py-0 ${({ isActive }) =>
               isActive ? "active" : "default"}`}
-            to={"/applied-job"}
+            to={"/appliedjob"}
           >
             Applied Jobs
           </NavLink>

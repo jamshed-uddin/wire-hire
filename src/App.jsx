@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header/Header";
 import { Outlet } from "react-router-dom";
 
@@ -11,6 +12,7 @@ function App() {
       <div className="mt-[50px]">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 }

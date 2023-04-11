@@ -1,3 +1,4 @@
+import { Player } from "@lottiefiles/react-lottie-player";
 import React from "react";
 
 const Banner = () => {
@@ -16,8 +17,14 @@ const Banner = () => {
         </p>
         <button className="my-btn">Get Started</button>
       </div>
-      <div className="order-first lg:order-last ">
-        <img src="person.png" alt="" />
+      <div className="order-first lg:order-last -z-40 ">
+        {/* <img src="person.png" alt="" />
+         */}
+        <Player
+          autoplay
+          loop
+          src="https://assets9.lottiefiles.com/packages/lf20_8ztbxqr1.json"
+        ></Player>
       </div>
     </div>
   );

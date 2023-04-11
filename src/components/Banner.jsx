@@ -7,7 +7,7 @@ const Banner = () => {
         <h1 className="text-5xl lg:text-7xl font-bold">
           <span>One Step</span> <br />
           <span> Closer To Your</span> <br />
-          <span className="text-blue-950"> Dream Job</span>
+          <span className="text-[#2496cd]"> Dream Job</span>
         </h1>
         <p className="text-lg lg:text-2xl my-3 font-light w-[80%] pl-1">
           Explore thousands of job opportunities with all the information you

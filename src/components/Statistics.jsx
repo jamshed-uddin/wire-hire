@@ -54,9 +54,9 @@ const Statistics = () => {
   ];
 
   return (
-    <div>
+    <div className="mt-[65px] py-8 lg:mt-[75px] px-6 lg:px-16 lg:flex">
       <RadarChart
-        cx={300}
+        cx={280}
         cy={250}
         outerRadius={150}
         width={600}
@@ -68,13 +68,28 @@ const Statistics = () => {
         <PolarRadiusAxis />
         <Tooltip />
         <Radar
-          name="Mike"
           dataKey="assignment_number"
-          stroke="#8884d8"
-          fill="#8884d8"
-          fillOpacity={0.6}
+          stroke="#000000"
+          fill="#3E54AC"
+          fillOpacity={0.5}
         />
       </RadarChart>
+      <div className="px-12">
+        {" "}
+        <h1 className="text-3xl font-semibold">Chart Detail</h1>
+        <p className="text-lg font-[350] border-b border-regal-blue pb-1">
+          A radar chart on my previous assignment number.
+        </p>
+        <p className="text-lg font-[350] py-4">
+          This chart holds the information of my assignments.I have finished 8
+          assignments.All 8 of them mentioned in 8 axis of this radar
+          chart.Assignment numbers will appear by hovering over the individual
+          assignment area of the chart.Radar Chart by{" "}
+          <a target="_blank" href="https://recharts.org/en-US">
+            <span className="text-regal-blue underline">Recharts</span>
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

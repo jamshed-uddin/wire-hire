@@ -1,15 +1,11 @@
-#root {
-  background-color: #f0f0f0;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .my-btn {
-  @apply border-r border-b-4 border-t border-l-4 border-regal-blue py-3 px-6  my-3 bg-white font-semibold hover:-translate-y-0.5 hover:translate-x-0.5 transition duration-150 hover:shadow-xl;
+  @apply border-r border-b-4 border-t border-l-4 border-douban-blue py-3 px-6  my-3 bg-[#ffffffd1] font-semibold hover:-translate-y-0.5 hover:translate-x-0.5 transition duration-150 hover:shadow-xl;
 }
 
 .my-border {
-  @apply border-r border-b-[3px] border-t border-l-[3px] border-regal-blue;
+  @apply border-r border-b-[3px] border-t border-l-[3px] border-douban-blue;
 }

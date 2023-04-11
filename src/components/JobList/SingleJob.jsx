@@ -18,7 +18,7 @@ const SingleJob = (props) => {
   } = props.job;
 
   return (
-    <div className="my-border p-6 bg-white lg:mb-0 mb-3 max-w-3xl mx-auto lg:mx-0 flex flex-col ">
+    <div className="my-border p-6 bg-[#ffffffd1] lg:mb-0 mb-3 max-w-3xl mx-auto lg:mx-0 flex flex-col ">
       <img className="w-fit" src={companyLogo} alt="" />
       <div className="space-y-1 my-4 pb-10">
         <h1 className="text-3xl font-semibold">{jobTitle}</h1>

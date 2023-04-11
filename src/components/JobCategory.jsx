@@ -20,7 +20,7 @@ const JobCategory = () => {
         {jobCategories.map((jobCategory) => (
           <div
             key={jobCategory.id}
-            className="border-2 w-1/2 mx-auto lg:w-full py-8 px-6 m-3 my-border bg-white cursor-pointer transition duration-300 hover:shadow-2xl"
+            className="border-2 w-1/2 mx-auto lg:w-full py-8 px-6 m-3 my-border bg-[#ffffffd1] cursor-pointer transition duration-300 hover:shadow-xl"
           >
             <img className="mx-auto mb-4" src={jobCategory.logo} alt="" />
             <h3 className="text-2xl font-semibold">{jobCategory.name}</h3>

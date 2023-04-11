@@ -18,8 +18,6 @@ const Banner = () => {
         <button className="my-btn">Get Started</button>
       </div>
       <div className="order-first lg:order-last -z-40 ">
-        {/* <img src="person.png" alt="" />
-         */}
         <Player
           autoplay
           loop

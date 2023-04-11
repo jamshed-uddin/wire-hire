@@ -3,9 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Banner from "./components/Banner";
-import JobCategory from "./components/JobCategory";
-import FeaturedJob from "./components/JobList/FeaturedJob";
+
 import AppliedJob from "./components/AppliedJob";
 import JobDetail from "./components/JobDetail";
 import ErrorPage from "./components/ErrorPage";

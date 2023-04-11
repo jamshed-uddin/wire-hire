@@ -6,8 +6,6 @@ import { Link, useRouteError } from "react-router-dom";
 const ErrorPage = () => {
   const { data, status, statusText } = useRouteError();
 
-  const err = useRouteError();
-
   return (
     <div className="h-screen flex items-center justify-center bg-white-smoke">
       <div className="text-center">
